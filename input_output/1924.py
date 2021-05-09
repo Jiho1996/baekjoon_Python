@@ -1,11 +1,4 @@
-Day = 0
-arrList = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
-dayList = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"]
+a,b,c = 1,2,3
+d= a= b= c
 
-x, y = map(int, input().split())
-
-for i in range(x - 1):
-    Day = Day + arrList[i]
-Day = (Day + y) % 7
-
-print(dayList[Day])
+print(a,b,c,d)
