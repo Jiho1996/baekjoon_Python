@@ -1,7 +1,5 @@
 def solution(s):
-    s = sorted(s,reverse=True)
-    ''.join(s)
-    return ''.join(s)
+    return ''.join(sorted(s,reverse=True))
 
 s = "Zbcdefg"
 print(solution(s))
