@@ -1,6 +1,2 @@
-list = ['일', '이', '삼', '사', '오']
-for v in list:
-    print(v)
-
-for v in list[:] :
-    print(v)
+data = list(enumerate([1, 2, 3]))
+print(data[0])

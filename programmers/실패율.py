@@ -16,6 +16,7 @@ def solution(N, stages):
                 stages.remove(stage)
         temp.append((bunja/bunmo))
 
+    print(temp)
     for _ in range(len(temp)):
         for i in range(len(temp)):
             if temp[i] == max(temp):
