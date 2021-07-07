@@ -6,6 +6,7 @@ def solution(priorities, location):
     temp = copy.deepcopy(priorities)
     #print(temp)
     #print(max(priorities, key=lambda  x:x[0])[0])
+    # 왜 max가 계속 3일까? 요소가 remove되면 max가 바뀌어야 하지 않나?
     for k in range(len(priorities)):
         for i in range(len(priorities)):
             if max(priorities, key=lambda x: x[0])[0] != priorities[i][1]:
